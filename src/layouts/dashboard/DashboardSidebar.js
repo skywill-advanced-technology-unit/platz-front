@@ -14,6 +14,7 @@ import Scrollbar from '../../components/Scrollbar';
 import NavSection from '../../components/NavSection';
 //
 import navConfig from './NavConfig';
+import MESSAGE from '../../config/message';
 
 // ----------------------------------------------------------------------
 
@@ -94,15 +95,15 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
 
           <Box sx={{ textAlign: 'center' }}>
             <Typography gutterBottom variant="h6">
-              Get more?
+              {MESSAGE.HELP}
             </Typography>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-              From only $69
+              {MESSAGE.INQUIRY_INTRO}
             </Typography>
           </Box>
 
-          <Button href="https://material-ui.com/store/items/minimal-dashboard/" target="_blank" variant="contained">
-            Upgrade to Pro
+          <Button href="https://www.naoki-intl.com/about/service/team-nift" target="_blank" variant="contained">
+            {MESSAGE.INQUIRY}
           </Button>
         </Stack>
       </Box>
