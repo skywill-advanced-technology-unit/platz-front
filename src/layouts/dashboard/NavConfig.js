@@ -16,6 +16,11 @@ const navConfig = [
     path: '/dashboard/user',
     icon: getIcon('eva:people-fill'),
   },
+  {
+    title: 'platz',
+    path: '/dashboard/platz',
+    icon: getIcon('ic:baseline-place'),
+  },
   // {
   //   title: 'product',
   //   path: '/dashboard/products',
